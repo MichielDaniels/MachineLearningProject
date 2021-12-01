@@ -1,0 +1,15 @@
+language: python
+python:
+    - "3.8"
+install:
+    - pip install numpy 
+    - pip install matplotlib
+    - pip install csv
+    - pip install collections
+    - pip install scipy
+    - pip install math
+    - pip install sklearn
+    - pip install nltk
+    - pip install os
+script:
+    - python code.py
